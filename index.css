@@ -77,5 +77,28 @@ h1{
 
 /* START FALL:  STYLING THE TRIANGLE THAT IS FALLING */
 
+.fall{
+	color: black;
+	font-size: 30px;
+/*FONT NAME: BEACON */
+   /* font-family: Beaconimport, sans-serif;*/
+   font-family: Arial;
+
+}
+
+/* ANIMATION */
+.fall:hover{
+	animation: falling 1s;
+}
+
+@keyframes falling {
+
+	0% {transform: translateY(0);
+	}
+	50% {transform: translateY(-10px) rotate(2deg);
+	}
+	100% {transform: translateY(200px);
+	}
+}
 
 /*END FALL*/
