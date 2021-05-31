@@ -6,16 +6,6 @@
 
 /*CUSTOM FONT*/
 /* WEB FONT TAKEN FROM:https://www.1001freefonts.com/new-fonts.php*/
-@font-face {
-font-family: 'Beaconimport';
-src: url('Beacon.eot'); /* IE9 Compat Modes */
-  src: url('Beacon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Beacon.woff2') format('woff2'), /* Super Modern Browsers */
-       url('Beacon.woff') format('woff'), /* Pretty Modern Browsers */
-       url('Beacon.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('Beacon.svg#svgFontName') format('svg'); /* Legacy iOS */
-
-}
 
 br{
 	  display: block;
@@ -86,27 +76,6 @@ h1{
 /*END SHAKE*/
 
 /* START FALL:  STYLING THE TRIANGLE THAT IS FALLING */
-.fall{
-	color: black;
-	font-size: 30px;
-/* WEB FONT TAKEN FROM:https://www.1001freefonts.com/new-fonts.php
-  FONT NAME: BEACON */
-    font-family: Beaconimport, sans-serif;
-}
 
-/* ANIMATION */
-.fall:hover{
-	animation: falling 1s;
-}
-
-@keyframes falling {
-
-	0% {transform: translateY(0);
-	}
-	50% {transform: translateY(-10px) rotate(2deg);
-	}
-	100% {transform: translateY(200px);
-	}
-}
 
 /*END FALL*/
