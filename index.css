@@ -12,7 +12,8 @@
 	color: black;
     font-size: 30px;
  /* ADOBE FONT : URBANA SEMI BOLD ITALIC */
-    font-family: urbana, sans-serif;
+   /* font-family: urbana, sans-serif; */
+    font-family: Arial, sans-serif;
     font-weight: 600;
     font-style: italic;
 }
@@ -41,7 +42,8 @@
 	color: black;
 	font-size: 30px;
 /* GOOGLE FONT: LIMELIGHT */
-    font-family: 'Limelight', cursive;
+   /* font-family: 'Limelight', cursive; */
+    font-family: Arial, sans-serif;
 }
 
 /* ANIMATION */
@@ -71,7 +73,7 @@
 	font-size: 30px;
 /*FONT NAME: BEACON */
    /* font-family: Beaconimport, sans-serif;*/
-   font-family: Arial;
+   font-family: Arial, sans-serif;
 
 }
 
