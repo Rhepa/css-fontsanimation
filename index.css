@@ -7,17 +7,6 @@
 /*CUSTOM FONT*/
 /* WEB FONT TAKEN FROM:https://www.1001freefonts.com/new-fonts.php*/
 
-br{
-	  display: block;
-      content: "";
-      margin-top: 100px; 
-}
-
-h1{
-	text-align: center;
-	background-color: lightpink;
-}
-
 /* START BOUNCE:   STYLING THE CIRCLE THAT IS BOUNCING */
 .bounce{
 	color: black;
@@ -102,3 +91,15 @@ h1{
 }
 
 /*END FALL*/
+
+
+br{
+	  display: block;
+      content: "";
+      margin-top: 100px; 
+}
+
+h1{
+	text-align: center;
+	background-color: lightpink;
+}
