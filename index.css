@@ -4,6 +4,8 @@
  src: url("Beacon.ttf");
 } */
 
+/*CUSTOM FONT*/
+/* WEB FONT TAKEN FROM:https://www.1001freefonts.com/new-fonts.php*/
 @font-face {
 font-family: 'Beaconimport';
 src: url('Beacon.eot'); /* IE9 Compat Modes */
